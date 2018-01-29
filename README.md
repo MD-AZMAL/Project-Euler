@@ -1,2 +1,3 @@
 # Project-Euler
 Project Euler solutions in python
+these might not be most optimal or robust solution but get the work done...
