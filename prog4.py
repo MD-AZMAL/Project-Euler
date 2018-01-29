@@ -22,7 +22,7 @@ def max_pal():
 	for i in range(999,99,-1):
 		for j in range(999,99,-1):
 			res = i*j
-			if retPall(res) is True:
+			if retPal(res) is True:
 				if max_ < res:
 					max_ = res
 	return max_
