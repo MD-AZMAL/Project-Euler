@@ -12,10 +12,10 @@ take two loops that go from 0 to limit incrementing by 3 and 5 respectively add 
 s = 0
 lim = 1000
 
-for i in range(0,lim,3):
-	s += i
-
-for i in range(0,lim,5):
-	s += i
+for i in range(1,1000):
+	if i%3 == 0:
+		s+=i
+	elif i%5 == 0:
+		s+=i
 
 print(s)
